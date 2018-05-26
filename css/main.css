@@ -1,0 +1,205 @@
+body{
+	margin: 0;
+	padding: 0; 
+}
+/* Top- Navigation Bar*/
+ul.navigation {
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+nav.navigation {
+	background-color: #000;
+	position: fixed;
+	/* positions the nav bar at the top */
+	top: 0;
+	text-align: center;
+	height: 45px;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.navigation ul li {
+	display: inline-block;
+	margin: 10px;
+	padding: 0;
+}
+
+li {
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+section.main {
+	background-color: #fff;
+	text-align: center;
+}
+/* iPhone X section*/
+h1 { 
+	font-size: 55px;
+	text-align: center;
+	padding-top: 150px;
+	margin: 0;
+	background-color: #fff;
+}  
+
+h2 {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 0;
+	padding-bottom: 125px;
+	margin: 0;
+	background-color: #fff;
+}
+
+img {
+	width: 70%;
+}
+
+.main h1, 
+.main h2 {
+	/*padding: 0;*/
+}
+/* Red iPhone section*/
+
+section.phone {
+	text-align: center;
+	background-color: #ae1228;
+	width: 100%;
+	padding-top: 20px;
+}
+
+div.red {
+	width: 30%;
+	display: inline-block;
+}
+
+.phone h3 {
+	color: white;
+	font-size: 3em;
+}
+
+div.links {
+	text-align: center;
+	margin: 15px;
+	font-size: 1.5em;
+}
+
+div.boxed {
+	color: white;
+	font-size: 15px;
+	border: 1px solid white;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0 auto;
+	width: 200px;
+	text-align: center;
+}
+
+.boxed p {
+	padding: 0 10px;
+}
+
+div img {
+	width: 100%;
+}
+
+/*iPad section*/
+h1.ipad,
+h2.ipad {
+	text-align: center;
+	background-color: #fafafa;
+	margin: 0;
+}
+
+h1.ipad {
+	padding-top: 50px;
+}
+
+h2.ipad {
+	padding-bottom: 50px;
+}
+
+/* MacBook Pro & Wartches section */
+div.macbook,
+div.watch {
+	display: inline-block;
+	/*width: 40%;*/
+	/*height: 500px;*/
+	text-align: center;
+	/*background-image: url("/img/macbook.jpg");*/
+	/*background-repeat: no-repeat;*/
+}
+
+div.macbook {
+	width: 42%;
+}
+
+div.watch {
+	width: 40%;
+}
+
+/* HomePod */
+div.home,
+div.access {
+	display: inline-block;
+	text-align: center;
+}
+
+div.home {
+	width: 33%;
+}
+
+div.access {
+	width: 60%;
+}
+
+/* AirPods & Music section */
+div.airpods,
+div.music {
+	display: inline-block;
+	text-align: center;
+}
+
+div.airpods {
+	width: 35%;
+}
+
+div.music {
+	width: 55%;
+}
+
+/* Footer */
+section.bottom {
+	background-color: lightgrey;
+	font-size: 15px;
+	bottom: 0;
+	height: 500px;
+}
+
+div.column {
+	display: inline-block;
+	float: left;
+	padding-left: 35px;
+}
+
+ul.left,
+ul.middle,
+ul.right {
+	list-style-type: none;
+}
+
+div.text {
+	clear: both;
+}
+
+div.text a {
+	color: black;
+	padding-left: 25px;
+}
+
